@@ -52,6 +52,10 @@ main {
     height: 45%;
 }
 
+.header {
+    color: hsl(0, 0%, 100%);
+}
+
 .subheader {
     color: hsl(215, 51%, 70%);
 }
@@ -69,6 +73,39 @@ main {
 
 .timeleft {
     color: hsl(215, 51%, 70%); 
+}
+
+.creation {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    padding-top: 1em;
+    padding-left: 1em;
+    align-items: center;
+    height: 5em;
+    width: 21em;
+}
+
+.avatar {
+    height: 43px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: hsl(0, 0%, 100%);
+}
+
+.createdby {
+    padding-left: 1em;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+.artist {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    color: px;
+    color: hsl(0, 0%, 100%);
 }
 
 .attribution {
